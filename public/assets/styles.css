@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);
+* {
+	margin: 0;
+	padding: 0;
+}
+.hero {
+	height: 80vh;
+	background: linear-gradient(45deg, rgba(255,175,189,.7), rgba(100,216,243,.7), rgba(245,146,176,.7), rgba(52,219,216,.7)) 0 0 / 1000% no-repeat, url('https://res.cloudinary.com/dxm4xspac/image/upload/v1623688284/Titans%20Time/ttpbackgroundnash_vfbozu.jpg') 0 0 / cover no-repeat;
+}
+h1#heroHeading {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font : normal 'Open-Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2.10rem;
+	text-align: center;
+}
+h1 span {
+	display: block;
+	margin-top: 1em;
+	font-size: 40px;
+	font-weight: 300;
+}
+
+img {
+	width: 2rem;
+}
+
+img.icon {
+	width: 4rem;
+}
+
+h2.platform-heading {
+	border: 2px solid #9dc5fc;
+	width: 100vw;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #9dc5fc;
+	text-transform: uppercase;
+	font-family: 'Raleway', 'sans-serif', 'serif';
+	color: white;
+}
+
+a.btn-primary {
+	background-color: #9dc5fc;
+	border-color: #9dc5fc;
+	width: 13rem;
+}
+
+a.btn-danger {
+	background-color: #eb868f;
+	border-color: #eb868f;
+	width: 13rem;
+}
+a.btn-dark {
+	background-color: #adb5bd;
+	border-color: #adb5bd;
+	width: 13rem;
+}
+nav#boilerNav, div#boilerFoot2, footer#boilerFoot1 {
+	background-color: #9dc5fc;
+}
+div#episodeContainer {
+	height: 80vh;
+}
+#buzzsprout-large-player-864862-limit-10 {
+	margin-top: 3rem;
+	margin-bottom: auto;
+	border: #eb868f solid 3px;
+	box-shadow: 1px 1px 30px #eb868f;
+}
+h1.pageTitle {
+	font-size: 3rem;
+	margin-top: 1.5rem;
+	text-align: center;
+	font-family: 'Raleway', 'sans-serif', serif;
+	font-weight: 700;
+	color: #031632;
+}
+body.backgroundPageColor {
+	background-color: #f8f9fa;
+}
+
+#messageBox {
+	height: 15rem;
+}
+button#submitContact {
+	background-color: #9dc5fc;
+	border-color: #9dc5fc;
+}
+div.accordion {
+	height: auto;
+	min-height: 55vh;
+	margin-top: 2rem;
+	max-width: 60vw;
+	margin-bottom: 2rem;
+}
+h2.pageSubTitle {
+	font-size: 2rem;
+	margin-top: 1.5rem;
+	text-align: center;
+	font-family: 'Raleway', 'sans-serif', serif;
+	font-weight: 300;
+	color: #031632;
+}
+p.pageText {
+	font-size: 1rem;
+	margin-top: 0.5rem;
+	text-align: center;
+	font-family: 'Raleway', 'sans-serif', serif;
+	font-weight: 300;
+	color: #031632;
+}
+
+video.pageVideos {
+	max-width: 1000px;
+	min-width: 300px;
+	width: 75vw;
+	display: block;
+	margin: auto;
+}
+h2.standAloneTitle {
+	display: block;
+	margin: auto;
+	margin-bottom: 3px;
+}
+p.standAloneText {
+	display: block;
+	max-width: 1000px;
+	min-width: 300px;
+	width: 75vw;
+	margin: auto;
+}
